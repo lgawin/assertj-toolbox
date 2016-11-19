@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+version = '0.1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.assertj:assertj-core:2.5.0"
+    compile "com.annimon:stream:1.1.3"
+
+    testCompile 'junit:junit:4.12'
+}
